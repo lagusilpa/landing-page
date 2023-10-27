@@ -4,67 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header section -->
-    <div class="header">
-        <div class="top-content">
-            <div class="logo">Header Logo</div>
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </div>
 
-        <div class="bottom-content">
-            <h1>This website is awesome</h1>
-            <p>this website has some subtext that goes here under the main title.it's a smaller font and the color is lower contrast</p>
-            <button>Sign Up</button>
-        </div>
+    <!-- ---------------------header section----------------------------- -->
+    <header>
+        <div id="logo">Header Logo</div>
+        <ul>
+            <li><a href="#" target="_blank" rel="noreferrer noopener">header link 1</a></li>
+            <li><a href="#" target="_blank" rel="noreferrer noopener">header link 2</a></li>
+            <li><a href="#" target="_blank" rel="noreferrer noopener">header link 3</a></li>
+        </ul>
+    </header>
 
-        <div class="image-section">
-            <img src="./images/image1.jpg" alt="this is placeholder for an image">
-        </div>    
+    <!-- ---------------------main section---------------------- -->
+    <main role="main">
+        <div class="hero-content">
+            <h1 role="heading">This website is awesome</h1>
+            <p>This website has some subtext that goes under the main title.It's a smaller font and the color is lower contrast</p>
+            <button><a href="#" target="_blank" rel="noreferrer noopener">Sign up</a></button>
+        </div>
+        <img src="./images/image1.jpg" alt="this is placeholder for an image" height="300" width="300">
+    </main>
+
+    <div class="gallery">
+        <h2 role="heading">Some random information</h2>
+        <figure role="figure">
+            <img src="./images/image2.jpg" alt="this is a placeholder for an image" height="200" width="200">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
+        </figure>
+        <figure role="figure">
+            <img src="./images/image3.jpg" alt="this is a placeholder for an image" height="200" width="200">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
+        </figure>
+        <figure role="figure">
+            <img src="./images/image4.jpg" alt="this is a placeholder for an image" height="200" width="200">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
+        </figure>
+        <figure role="figure">
+            <img src="./images/image5.jpg" alt="this is a placeholder for an image" height="200" width="200">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
+        </figure>
     </div>
 
-    <!-- gallery,quote,sign up section  -->
-    <div class="container">
-        <div class="gallery-section">
-            <h2>Some random information</h2>
-            <figure>
-                <img src="./images/image2.jpg" alt="this is a placeholder for an image">
-                <figcaption>this is some subtext under an illustration/image</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/image3.jpg" alt="this is a placeholder for an image">
-                <figcaption>this is some subtext under an illustration/image</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/image4.jpg" alt="this is a placeholder for an image">
-                <figcaption>this is some subtext under an illustration/image</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/image5.jpg" alt="this is a placeholder for an image">
-                <figcaption>this is some subtext under an illustration/image</figcaption>
-            </figure>
-        </div>
-
-        <blockquote class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer .Maybe it's just filling up space,or maybe people will actually read it.whos knows? All i know is that it looks nice.</p>
-            <div class="footer">-Thor,God of Thunder</div>
+    <div class="quote">
+        <blockquote cite="#" >
+            This is an inspiring quote,or a testimonial from a customer.Maybe it's just filling up space,or maybe people will actually reat it.Who knows?All i know is that it looks nice
         </blockquote>
-
-        <div class="sign-up">
-            <p>call to actions! it's time!</p>
-            <p>sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
-        </div>
+        <cite>-Thor,God of Thunder</cite>
     </div>
 
-    <!-- the footer section -->
-    <div class="footer">
-        Copyright @ The Odin Project 2021
+    <div class="cta">
+        <h1 role="heading">Call to action!it's time!</h1>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <button><a href="#" target="_blank" rel="noreferrer noopener">Sign up</a></button>
     </div>
+
+    <!-- --------------------------footer section----------------------  -->
+    <footer>
+        <p>&copy;The odin Project</p>
+        <address>Contact <a href="#" rel="noopener noreferrer" target="_blank">me</a></address>
+    </footer>
 </body>
 </html>
